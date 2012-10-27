@@ -89,9 +89,6 @@
         coordinate.latitude =  [strLatitudeDecimals doubleValue];
         coordinate.longitude =  [strLongitudeDecimal doubleValue];
         
-        NSLog(@"%f", coordinate.latitude);
-        NSLog(@"%f", coordinate.longitude);
-        
         AddressAnnotationController *adressAnnotation = [[AddressAnnotationController alloc] initWithCoordinate:coordinate title:comerce.publicname andSubtitle:nil];
         [self.mapView addAnnotation:adressAnnotation];
     }

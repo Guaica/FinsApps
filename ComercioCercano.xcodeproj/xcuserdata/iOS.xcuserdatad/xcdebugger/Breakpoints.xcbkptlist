@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ComercioCercano/MapViewController.m"
-         timestampString = "373015303.035598"
+         timestampString = "373021125.777197"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "144"
-         endingLineNumber = "144"
+         startingLineNumber = "141"
+         endingLineNumber = "141"
          landmarkName = "-mapView:viewForAnnotation:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -21,12 +21,12 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ComercioCercano/MapViewController.m"
-         timestampString = "373015303.035598"
+         timestampString = "373021231.210057"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "89"
-         endingLineNumber = "89"
-         landmarkName = "-showCommerces"
+         startingLineNumber = "55"
+         endingLineNumber = "55"
+         landmarkName = "-findMe"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

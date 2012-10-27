@@ -42,7 +42,7 @@
     self.arrPrices = [[NSMutableArray alloc] init];
     self.strTxt = [[NSMutableString alloc] init];
     self.textField.text = @"";
-    [self.strTxt appendString: [NSString stringWithFormat:@"Lista de Productos\n"]];
+    [self.strTxt appendString: [NSString stringWithFormat:@"Llistat de productes\n"]];
     self.textField.text = self.strTxt;
     self.count = 0;
     self.alg =  [[Algorithm alloc] initWithArrPriceShop:self.arrPrices];
@@ -122,7 +122,7 @@
         NSLog(@"array %@",self.arrPrices);
         self.strTxt = nil;
         self.strTxt = [[NSMutableString alloc] init];
-        [self.strTxt appendString: [NSString stringWithFormat:@"Lista de Productos\n"]];
+        [self.strTxt appendString: [NSString stringWithFormat:@"Llistat de productes\n"]];
         for(int i = 0; i < [self.arrPrices count]; i++){
             NSString *strTmp = [self.arrPrices objectAtIndex:i];
             [self.strTxt appendString: [NSString stringWithFormat:@"Producto %i Precio %@\n",i+1,strTmp]];

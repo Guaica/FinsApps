@@ -20,6 +20,9 @@
 		81070F2E163BC3D00038F194 /* comerBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 81070F2D163BC3D00038F194 /* comerBack.png */; };
 		81070F30163BC8090038F194 /* UserAccount.png in Resources */ = {isa = PBXBuildFile; fileRef = 81070F2F163BC8090038F194 /* UserAccount.png */; };
 		81070F34163BCD1C0038F194 /* ComercNew.png in Resources */ = {isa = PBXBuildFile; fileRef = 81070F33163BCD1C0038F194 /* ComercNew.png */; };
+		81070F3A163BDB5D0038F194 /* locate.png in Resources */ = {isa = PBXBuildFile; fileRef = 81070F39163BDB5D0038F194 /* locate.png */; };
+		8111A8C1163BE26600BF963A /* LoginCommerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8111A8C0163BE26600BF963A /* LoginCommerViewController.m */; };
+		8111A8C4163BE56C00BF963A /* Optimize.png in Resources */ = {isa = PBXBuildFile; fileRef = 8111A8C3163BE56C00BF963A /* Optimize.png */; };
 		81A771D9163AEA25005F483E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A771D8163AEA25005F483E /* UIKit.framework */; };
 		81A771DB163AEA25005F483E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A771DA163AEA25005F483E /* Foundation.framework */; };
 		81A771DD163AEA25005F483E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A771DC163AEA25005F483E /* CoreGraphics.framework */; };
@@ -67,6 +70,10 @@
 		81070F2D163BC3D00038F194 /* comerBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comerBack.png; sourceTree = "<group>"; };
 		81070F2F163BC8090038F194 /* UserAccount.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UserAccount.png; sourceTree = "<group>"; };
 		81070F33163BCD1C0038F194 /* ComercNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ComercNew.png; sourceTree = "<group>"; };
+		81070F39163BDB5D0038F194 /* locate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locate.png; sourceTree = "<group>"; };
+		8111A8BF163BE26600BF963A /* LoginCommerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginCommerViewController.h; sourceTree = "<group>"; };
+		8111A8C0163BE26600BF963A /* LoginCommerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginCommerViewController.m; sourceTree = "<group>"; };
+		8111A8C3163BE56C00BF963A /* Optimize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Optimize.png; sourceTree = "<group>"; };
 		81A771D4163AEA25005F483E /* ComercioCercano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComercioCercano.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A771D8163AEA25005F483E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		81A771DA163AEA25005F483E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -140,6 +147,8 @@
 			isa = PBXGroup;
 			children = (
 				81070F20163BC2070038F194 /* BestPriceViewController.h */,
+				8111A8BF163BE26600BF963A /* LoginCommerViewController.h */,
+				8111A8C0163BE26600BF963A /* LoginCommerViewController.m */,
 				81070F21163BC2070038F194 /* BestPriceViewController.m */,
 			);
 			name = PrizeCalculator;
@@ -291,6 +300,8 @@
 		81A7723A163B5938005F483E /* img */ = {
 			isa = PBXGroup;
 			children = (
+				8111A8C3163BE56C00BF963A /* Optimize.png */,
+				81070F39163BDB5D0038F194 /* locate.png */,
 				81070F33163BCD1C0038F194 /* ComercNew.png */,
 				81070F2F163BC8090038F194 /* UserAccount.png */,
 				81070F2D163BC3D00038F194 /* comerBack.png */,
@@ -374,6 +385,8 @@
 				81070F2E163BC3D00038F194 /* comerBack.png in Resources */,
 				81070F30163BC8090038F194 /* UserAccount.png in Resources */,
 				81070F34163BCD1C0038F194 /* ComercNew.png in Resources */,
+				81070F3A163BDB5D0038F194 /* locate.png in Resources */,
+				8111A8C4163BE56C00BF963A /* Optimize.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +413,7 @@
 				81070F12163B879E0038F194 /* AddressAnnotationController.m in Sources */,
 				81070F1F163BC1F50038F194 /* Algorithm.m in Sources */,
 				81070F26163BC2070038F194 /* BestPriceViewController.m in Sources */,
+				8111A8C1163BE26600BF963A /* LoginCommerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
