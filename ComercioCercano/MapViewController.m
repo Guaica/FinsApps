@@ -45,8 +45,19 @@
     self.mapView.showsUserLocation = YES;
     self.mapView.delegate = self;
     
-    [self findMe];
+    //[self findMe];
+    MKCoordinateRegion cordinateRegion;
+    CLLocationCoordinate2D location;
+    location.latitude = 41.5;
+    location.longitude = 2.1;
     
+    cordinateRegion.center = location;
+    MKCoordinateSpan span;
+    span.latitudeDelta = 1.5;
+    span.longitudeDelta = 1.5;
+    cordinateRegion.span = span;
+    
+    [self.mapView setRegion:cordinateRegion];
     [self showCommerces];
 }
 

@@ -67,6 +67,7 @@
     
 }
 
+/*
 -(void)textFieldDidBeginEditing:(UITextField *)textField{
     [UIView beginAnimations:nil context:NULL];
     [UIView setAnimationDuration: 0.5];
@@ -102,14 +103,14 @@
     }
     [UIView commitAnimations];
 }
-
+*/
 - (IBAction)calcularPreu:(id)sender {
     
     self.alg.arrPricesFinal = self.arrPrices;
     double quant = [self.txtQuan.text doubleValue];
     double preu = [self.txtPreuProduc.text doubleValue];
     double price = [self.alg rentModelQuantityOfProduct:quant priceOfProduct:preu];
-    self.MissFinal.text = [NSString stringWithFormat:@"El precio de venta es %f", price];
+    self.MissFinal.text = [NSString stringWithFormat:@"El preu final és %.2f", price];
 }
 
 
